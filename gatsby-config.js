@@ -18,5 +18,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/blog`,
+        name: "markdown-pages",
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 }
