@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: '321 Fantasy Football Blog',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
